@@ -19,11 +19,11 @@ class _HomePageState extends State<HomePage> {
   void initState() {
     super.initState();
 
-    // Future.delayed(const Duration(seconds: 5)).then((value) {
-    //   setState(() {
-    //     _isLoading = false;
-    //   });
-    // });
+    Future.delayed(const Duration(seconds: 5)).then((value) {
+      setState(() {
+        _isLoading = false;
+      });
+    });
   }
 
   @override
